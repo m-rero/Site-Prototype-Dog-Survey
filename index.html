@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <div class="survey"  type="container">
+    <div class="heading" type="container">
+        <h1 id="title">Doguinhos</h1>
+        <p id="">Questionário sobre doguinhos e seus humanos</p>
+        <img src="https://img.freepik.com/premium-vector/dog-set-collection-dogs-various-breed_277904-3631.jpg" alt="doguinhos">
+        </div>
+        
+        <form id="survey-form">
+            <label id="name-label" for="name">Nome do humano: <input id="name" type="text" placeholder="Digite nome do humano" required  /></label><br>
+            <label id="email-label" for="email">Email do humano: <input id="email" type="email" placeholder="Digite email do humano" required  /></label><br>
+            <label id="number-label" for="age">Idade do humano: <input id="age" type="number" placeholder="Digite idade do humano" min="1" max="130" /></label><br>
+            <label for="dropdown">Você ama seu doguinho, humano? <br>
+                <select id="dropdown" name="dropdown">
+                  <option value="">(escolha uma opção)</option>
+                  <option value="1">SIM</option>
+                  <option value="2">Claro</option>
+                  <option value="3">Mais do que qualquer outro ser vivo</option>
+                  <option value="4">Que pergunta! Óbvio que sim!</option>
+                </select>
+              </label><br>
+              
+                <label for="Sim">Deu um petisco para seu doguinho hoje?<br> 
+                <input id="sim" type="radio" name="sim" class="inline" />Sim</label><br>
+                <label for="vou-agora"><input id="vou-agora" type="radio" name="vou-agora" class="inline" />Vou agora</label><br>
+                
+              
+              <br><label for="bio">Fale sobre o seu doguinho, humano:<br>
+                <textarea id="bio" name="bio" rows="3" cols="30" placeholder="">Meu doguinho latiu para uma moto hoje...</textarea>
+              </label>
+
+              <label for="brincalhão">Como é seu doguinho?<br>
+                <input id="brincalhão" value="1" type="checkbox" required name="brincalhão" class="inline" /> Brincalhão </label><br>
+                <label for="dorminhoco"></label><input id="dorminhoco" value="1" type="checkbox" required name="dorminhoco" class="inline" /> Dorminhoco </label><br>
+                <label for="independente"></label><input id="independente" value="1" type="checkbox" required name="independente" class="inline" /> Independente </label><br>
+                <label for="carinhoso"></label><input id="carinhoso" value="1" type="checkbox" required name="carinhoso" class="inline" /> Carinhoso </label><br>
+                <label for="amigavel"></label><input id="amigavel" value="1" type="checkbox" required name="amigavel" class="inline" /> Amigável </label><br>
+                <label for="fominha"></label><input id="fominha" value="1" type="checkbox" required name="fominha" class="inline" /> Fominha </label><br>
+                
+                <button id="submit">Subimeter</button>
+              
+        </form>
+    </div>
+  </body>
+  <footer>
+
+  </footer>
+</html>
